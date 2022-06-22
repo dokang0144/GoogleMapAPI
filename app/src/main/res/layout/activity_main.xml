@@ -10,16 +10,17 @@
 <fragment
 android:layout_width="match_parent"
 android:layout_height="0dp"
-android:layout_weight="0.8"
+android:layout_weight="0.9"
 android:id="@+id/map"
 tools:context=".MapsActivity"
 android:name="com.google.android.gms.maps.SupportMapFragment" />
 
 <Button
-android:text="장소검색"
+android:text="보물찾기"
 android:layout_width="match_parent"
 android:layout_height="0dp"
-android:layout_weight="0.2"
-android:id="@+id/button"/>
+android:layout_weight="0.1"
+android:id="@+id/button"
+android:onClick="onClick"/>
 
     </LinearLayout>
